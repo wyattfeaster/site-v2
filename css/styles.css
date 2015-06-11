@@ -6,26 +6,8 @@ body{
 	font-family: 'Raleway', sans-serif;
 }
 
-/******************  Left Menu  *******************/
 
-#left{
-	width: 20%;
-	height: 100%;
-	position: fixed;
-	background: gray;
 
-}
-/******************  Right Side Content  *******************/
-/**********************************************************/
-
-#right{
-	width: 80%;
-	height: auto%;
-	position: absolute;
-	right: 0;
-	background: white;
-
-}
 
 /*****************  Image Gallery  ******************/
 
@@ -58,12 +40,49 @@ body{
 
 
 
-/* Header Styling*/
+/******************  Left Menu  *******************/
 
-/*banner styling*/
+#left{
+	width: 20%;
+	height: 100%;
+	position: fixed;
+	background: gray;
 
-/*Gallery*/
+}
+/******************  Right Side Content  *******************/
+/**********************************************************/
 
+#right{
+	width: 80%;
+	height: auto;
+	position: absolute;
+	right: 0;
+	background: white;
+
+}
+.gallery{
+
+	width: 100%;
+	margin: 0 auto;
+}
+
+.gallery img{
+	width: auto;
+	display: inline-block;
+	width: 100%;
+	height: auto;
+	float: left;
+
+}
+
+div p{
+
+	background: blue;
+	height: auto;
+	padding: .05%;
+}
+
+}
 
 /************************** LARGE DISPLAYS ******************************/
 /***********************************************************************/
